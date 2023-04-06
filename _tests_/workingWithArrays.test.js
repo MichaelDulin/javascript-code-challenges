@@ -18,7 +18,7 @@ describe("Testing challenge set 2", () => {
   test("Given an array, find the middle index, then add the number to the left and right together and return", () => {
     expect(challenge2.addMiddleNeighbors([1, 6, 2, 9, 10, 11, 4])).toStrictEqual(12);
   });
-  test("Given an array, seperate it into ", () => {
-    expect(challenge2.gettingWeird([1, 6, 2, 9, 10, 11, 4, 17, 3, 100, 1001, 12])).toStrictEqual([7, 11, 21, 103, 1013]);
+  test("Given an array, split into two by even and odds, add each value and return final array", () => {
+    expect(challenge2.gettingWeird([1, 6, 2, 9, 10, 11, 4, 17, 3, 100, 1001, 12])).toEqual([7, 11, 21, 103, 1013]);
   });
 });
