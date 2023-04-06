@@ -8,7 +8,7 @@
 */
 
 const addTwoNumbers = (num1, num2) => {
-    return num1 + num2;
+
 };
 
 /*  ----------------------------------------------------------------------
@@ -21,8 +21,7 @@ const addTwoNumbers = (num1, num2) => {
 */
 
 const addNumberToItself = (baseNum, counter) => {
-    let newNum = 0;
-    return counter * (newNum += baseNum);
+
 };
 
 /*  ----------------------------------------------------------------------
@@ -35,7 +34,7 @@ const addNumberToItself = (baseNum, counter) => {
 */
 
 const subtractNums = (baseNum, subtractor) => {
-    return baseNum - subtractor;
+
 };
 
 /*  ----------------------------------------------------------------------
@@ -48,7 +47,7 @@ const subtractNums = (baseNum, subtractor) => {
 */
 
 const divideNumber = (baseNum, divider) => {
-    return baseNum / divider;
+
 };
 
 /*  ----------------------------------------------------------------------
@@ -61,10 +60,8 @@ const divideNumber = (baseNum, divider) => {
 */
 
 const findRemainder = (baseNum, num) => {
-    return baseNum % num;
+
 };
-
-
 
 
 
@@ -76,6 +73,8 @@ const findRemainder = (baseNum, num) => {
 /* ==================================================== */
 /* ==================== TEST SUITE ==================== */
 /* ==================================================== */
+
+
 
 module.exports = {
     addTwoNumbers,
