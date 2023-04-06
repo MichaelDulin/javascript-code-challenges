@@ -9,8 +9,8 @@ The goal of this file is to provide some slightly more basic code challenges to 
 A test suite is provided for each challenge set. To test:
 
 1. Fork this repository
-2. Open terminal and run:   npm i
-3. In terminal, run:        npm test
+2. Open terminal and run:   ***npm i***
+3. In terminal, run:        ***npm test***
 
 
 ## Note ##
